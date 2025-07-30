@@ -1,0 +1,19 @@
+import java.io.*;
+class IncrementDecrement {
+     public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+
+        System.out.println("Initial values: a = " + a + ", b = " + b);
+
+        a++;
+        ++b;
+        System.out.println("After increment: a = " + a + " (a++), b = " + b + " (++b)");
+
+        a--;
+        --b;
+        System.out.println("After decrement: a = " + a + " (a--), b = " + b + " (--b)");
+
+        System.out.println("Final values: a = " + a + ", b = " + b);
+    }
+}
